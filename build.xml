@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<project name="TravisExercise" default="compile">
+<project name="Travis" default="compile">
 	<property name="builddir" location="bin" />
 
-	<path id="TravisExercise.classpath">
+	<path id="Travis.classpath">
 		<pathelement location="${builddir}"/>
 	</path>
 
@@ -13,7 +13,7 @@
 	<target name="compile" depends="init">
         <javac destdir="${builddir}" includeantruntime="false">
             <src path="src"/>
-            <classpath refid="TravisExercise.classpath"/>
+            <classpath refid="Travis.classpath"/>
         </javac>
 	</target>
 

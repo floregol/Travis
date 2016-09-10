@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<project name="TravisExercise" default="compile">
+	<property name="builddir" location="bin" />
+
+	<path id="TravisExercise.classpath">
+		<pathelement location="${builddir}"/>
+	</path>
+
+	<target name="init">
+		<mkdir dir="${builddir}" />
+	</target>
+
+	<target name="compile" depends="init">
+        <javac destdir="${builddir}" includeantruntime="false">
+            <src path="src"/>
+            <classpath refid="TravisExercise.classpath"/>
+        </javac>
+	</target>
+
+</project>

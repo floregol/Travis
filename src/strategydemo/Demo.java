@@ -2,12 +2,12 @@ package strategydemo;
 
 public class Demo {
 
-	/*public static void main(String argv[]) {
+	public static void main(String argv[]) {
 		Order order = new Order("Jennifer", 444.07f);
 		DiscountStrategy strategy = null;
 
-		int selectedStrat = 2;//Integer.parseInt(argv[0]);
-		float amt = 3;//Float.parseFloat(argv[1]);
+		int selectedStrat = Integer.parseInt(argv[0]);
+		float amt = Float.parseFloat(argv[1]);
 
 		switch(selectedStrat) {
 		case 1:
@@ -27,5 +27,5 @@ public class Demo {
 		System.out.println("Hello " + order.getName());
 		System.out.println("The full price of your order was " + order.getPrice());
 		System.out.println("Your discount price is " + order.getDiscountedPrice());
-	}*/
+	}
 }

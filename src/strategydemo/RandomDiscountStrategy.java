@@ -11,6 +11,6 @@ public class RandomDiscountStrategy implements DiscountStrategy {
 	}
 
 	public float applyDiscount(float price) {
-		return price * (rng.nextFloat() + 1);
+		return price * rng.nextFloat();
 	}
 }

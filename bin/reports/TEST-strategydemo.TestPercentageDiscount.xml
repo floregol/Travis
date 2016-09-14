@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="MCGILLM-958U4DE" name="strategydemo.TestPercentageDiscount" skipped="0" tests="3" time="0.079" timestamp="2016-03-26T21:43:39">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/C:/gM/eclipse-dsl-mars-1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_45\jre\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\gM\eclipse-dsl-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327" />
+    <property name="java.runtime.version" value="1.7.0_45-b18" />
+    <property name="user.name" value="gm" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_45\jre\bin" />
+    <property name="ant.project.default-target" value="compile" />
+    <property name="ant.project.name" value="TravisExercise" />
+    <property name="java.version" value="1.7.0_45" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="libraries" value="lib" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_45\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="CA" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_45\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\Users\gm\gM\new\2016-01 ECSE321\assignments\ws\TravisExercise\buildSolution.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="24.45-b08" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\gM\eclipse-dsl-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="/C:/gM/eclipse-dsl-mars-1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/" />
+    <property name="user.home" value="C:\Users\gm" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.file.TravisExercise" value="C:\Users\gm\gM\new\2016-01 ECSE321\assignments\ws\TravisExercise\buildSolution.xml" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_45\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_73/bin/server;C:/Program Files/Java/jre1.8.0_73/bin;C:/Program Files/Java/jre1.8.0_73/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\PROGRAM FILES\COMMON FILES\MICROSOFT SHARED\WINDOWS LIVE;C:\PROGRAM FILES (X86)\COMMON FILES\MICROSOFT SHARED\WINDOWS LIVE;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES\INTEL\WIFI\BIN\;C:\PROGRAM FILES\COMMON FILES\INTEL\WIRELESSCOMMON\;;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\COMMON FILES\LENOVO;C:\PROGRAM FILES (X86)\COMMON FILES\ULEAD SYSTEMS\MPEG;C:\PROGRAM FILES (X86)\WINDOWS LIVE\SHARED;C:\SWTOOLS\READYAPPS;C:\PROGRAM FILES (X86)\COMMON FILES\LENOVO;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\Program Files (x86)\Support Tools\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MiKTeX 2.9\miktex\bin\;C:\Program Files (x86)\Rational\common;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\SSH Communications Security\SSH Secure Shell;C:\gM\eclipse-dsl-mars-1-win32-x86_64\eclipse;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="testdir" value="test" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner strategydemo.TestPercentageDiscount skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\gm\gM\new\2016-01 ECSE321\assignments\ws\TravisExercise\test\reports\TEST-strategydemo.TestPercentageDiscount.xml crashfile=C:\Users\gm\gM\new\2016-01 ECSE321\assignments\ws\TravisExercise\junitvmwatcher6278593890538808499.properties propsfile=C:\Users\gm\gM\new\2016-01 ECSE321\assignments\ws\TravisExercise\junit1032543891903001443.properties" />
+    <property name="java.class.path" value="C:\Users\gm\gM\new\2016-01 ECSE321\assignments\ws\TravisExercise\bin;C:\Users\gm\gM\new\2016-01 ECSE321\assignments\ws\TravisExercise\lib\junit.jar;C:\Users\gm\gM\new\2016-01 ECSE321\assignments\ws\TravisExercise\lib\org.hamcrest.core_1.3.0.v201303031735.jar;C:\gM\eclipse-dsl-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\gM\eclipse-dsl-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\gM\eclipse-dsl-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\gM\eclipse-dsl-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="builddir" value="C:\Users\gm\gM\new\2016-01 ECSE321\assignments\ws\TravisExercise\bin" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="eclipse.pdebuild.home" value="/C:/gM/eclipse-dsl-mars-1-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./" />
+    <property name="java.io.tmpdir" value="C:\Users\gm\AppData\Local\Temp\" />
+    <property name="ant.file.type.TravisExercise" value="file" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="testreportsdir" value="test/reports" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_45\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\gm\gM\new\2016-01 ECSE321\assignments\ws\TravisExercise" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="C:\Users\gm\gM\new\2016-01 ECSE321\assignments\ws\TravisExercise" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="C:\gM\eclipse-dsl-mars-1-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="test" />
+  </properties>
+  <testcase classname="strategydemo.TestPercentageDiscount" name="testPercentDiscount1" time="0.003" />
+  <testcase classname="strategydemo.TestPercentageDiscount" name="testPercentDiscount2" time="0.0" />
+  <testcase classname="strategydemo.TestPercentageDiscount" name="testPercentDiscount3" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
